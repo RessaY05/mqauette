@@ -5,24 +5,30 @@ body {
 header{
     margin-top: -50px;
     height: 250px;
-    width: 1000px;
+    width: 100%;
     background-color: #b8cb21;
+    position: relative;
 }
  div header img {
     margin-top: 60px;
     float: left;
 }
-.mm{
-    line-height: 250px;
-}
-.li1{
-    display: inline;
+.liste{
+    list-style: none;
+    display: flex;
     float: right;
-    margin-right: 40px;
+    margin-right: 50px;
     margin-bottom: 10px;
     text-transform: capitalize;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    
+}
+.lii {
+    margin-right: 30px;
 }
 div{
     width: 1000px;
