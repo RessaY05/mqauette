@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap');@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap');
 body {
     background-image: url(Images/img/fond.png);
 }
@@ -8,6 +8,7 @@ header{
     width: 100%;
     background-color: #b8cb21;
     position: relative;
+    
 }
  div header img {
     margin-top: 60px;
@@ -20,8 +21,8 @@ header{
     margin-right: 50px;
     margin-bottom: 10px;
     text-transform: capitalize;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-family:Oswald;
+    font-size: 1.3em;
     position: absolute;
     right: 0px;
     top: 100px;
@@ -31,11 +32,12 @@ header{
     margin-right: 30px;
 }
 div{
-    width: 1000px;
+    width: 750px;
     margin: auto;
 }
 .first {
     margin-bottom: 100px;
+    font-family:Oswald;
 }
 .who {
     height: 130px;
@@ -45,6 +47,7 @@ div{
 }
 .two {
     margin-bottom: 150px;
+    font-family:Oswald;
 }
 .what {
     height: 130px;
@@ -68,7 +71,7 @@ button:hover {
 }
 .bod{
     background-color: white;
-    height: 850px;
+    height: 1000px;
     margin-bottom: 20px;
 }
 .aaa{
